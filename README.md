@@ -240,9 +240,9 @@ http://localhost:5173
 
 # 📸 Screenshots
 
-<img width="1920" height="1019" alt="Screenshot (1054)" src="https://github.com/user-attachments/assets/14b01aaa-99c1-4204-a77a-5d267d3d4c72" />
-<img width="1920" height="1015" alt="Screenshot (1055)" src="https://github.com/user-attachments/assets/5733e5cb-8de7-4022-b0e6-b340826a9503" />
-<img width="1920" height="1025" alt="Screenshot (1056)" src="https://github.com/user-attachments/assets/f8394844-3248-4ac3-8b0d-b72ae621221a" />
+<img width="1920" height="1019" alt="Screenshot (1054)" src="https://github.com/user-attachments/assets/a35bb286-1a38-458f-94b2-d5eecb006092" />
+<img width="1920" height="1015" alt="Screenshot (1055)" src="https://github.com/user-attachments/assets/e453d49c-8120-412e-a0b7-fde870a2b32d" />
+<img width="1920" height="1025" alt="Screenshot (1056)" src="https://github.com/user-attachments/assets/93437049-b13c-4056-9f9a-0f789ce9f67b" />
 
 
 - Dashboard
