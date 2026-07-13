@@ -1,134 +1,233 @@
-# Data Analytics & Business Intelligence Dashboard
+# 📊 Business Analytics Dashboard
 
-## Project Overview
+A full-stack Business Analytics Dashboard built using **React.js**, **Node.js**, and **PostgreSQL**.
 
-This project is a web-based Business Intelligence Dashboard developed using React.js, Node.js, and PostgreSQL. It helps businesses visualize sales data, monitor key performance indicators (KPIs), import business records from CSV files, and export reports in Excel and PDF formats.
-
-This project was developed as a first-year college project.
+This project allows users to visualize business data, manage sales records, import/export datasets, and analyze key business metrics through an interactive dashboard.
 
 ---
 
-## Objective
+# 🚀 Features
 
-To build a platform that visualizes and analyzes business data through an interactive dashboard.
+## Dashboard
+
+- Dynamic KPI Cards
+- Total Sales
+- Total Orders
+- Total Customers
+- Average Order Value
+
+## Analytics
+
+- Revenue by Product Chart
+- Sales by City Chart
+- Live PostgreSQL Data
+- Responsive Dashboard
+
+## Recent Sales
+
+- Search Records
+- Sort Columns
+- Pagination
+- Delete Records
+
+## Import Data
+
+- CSV Import
+- Excel (.xlsx) Import
+- JSON Import
+- API Import
+
+## Export Data
+
+- Export to Excel
+- Export to PDF
+
+## Database
+
+- PostgreSQL Integration
+- Duplicate Detection
+- REST API
+- Live Dashboard Updates
 
 ---
 
-## Technologies Used
+# 🛠 Tech Stack
 
-### Frontend
+## Frontend
+
 - React.js
 - Vite
 - Recharts
-- CSS
+- React Icons
 
-### Backend
+## Backend
+
 - Node.js
 - Express.js
 
-### Database
+## Database
+
 - PostgreSQL
 
-### Additional Libraries
-- XLSX
-- jsPDF
-- jspdf-autotable
-- Multer
+## Packages
+
+- multer
 - csv-parser
+- xlsx
+- axios
+- file-saver
+- jspdf
+- jspdf-autotable
 
 ---
 
-## Features
-
-- Business Dashboard
-- KPI Monitoring
-- Revenue Analysis
-- City-wise Sales Analysis
-- Recent Sales Table
-- Search Records
-- Sort Records
-- Pagination
-- Import Data from CSV
-- Prevent Duplicate Records
-- Export Reports to Excel
-- Export Reports to PDF
-- Delete Records
-
----
-
-## Project Structure
+# 📁 Project Structure
 
 ```
 BusinessDashboard
 │
 ├── client
 │   ├── src
-│   ├── components
-│   ├── pages
-│   └── styles
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── styles
+│   │   └── assets
+│   │
+│   └── package.json
 │
 ├── server
-│   ├── uploads
+│   ├── server.js
 │   ├── db.js
-│   └── server.js
+│   ├── csvImporter.js
+│   ├── excelImporter.js
+│   ├── jsonImporter.js
+│   ├── apiImporter.js
+│   ├── sampleData.js
+│   └── package.json
 │
-├── package.json
 └── README.md
 ```
 
 ---
 
-## How to Run the Project
+# 📈 Dashboard Modules
 
-### Backend
+- Dashboard Cards
+- Revenue Analytics
+- City Sales Analytics
+- Recent Sales
+- File Import
+- File Export
 
+---
+
+# 📂 Supported File Types
+
+| Type | Supported |
+|------|-----------|
+| CSV | ✅ |
+| Excel (.xlsx) | ✅ |
+| JSON | ✅ |
+| API | ✅ |
+
+---
+
+# 📤 Export Formats
+
+| Format | Supported |
+|---------|-----------|
+| Excel | ✅ |
+| PDF | ✅ |
+
+---
+
+# ⚙ Installation
+
+## Clone Repository
+
+```bash
+https://github.com/PrakharTyagiSanbhin/Data-Analytics-Business-Intelligence-Dashboard_CodecTechnologies.git
 ```
-cd server
-node server.js
-```
 
-Backend runs on:
+---
 
-```
-http://localhost:5000
-```
+## Install Frontend
 
-### Frontend
-
-```
+```bash
 cd client
+npm install
 npm run dev
 ```
 
-Frontend runs on:
+---
 
-```
-http://localhost:5173
+## Install Backend
+
+```bash
+cd server
+npm install
+node server.js
 ```
 
 ---
 
-## Database
+## PostgreSQL
 
-Database Used:
+Create the required database and tables.
 
-PostgreSQL
+Update database credentials in:
 
-Example Table:
-
-- recent_sales
+```
+server/db.js
+```
 
 ---
 
-## Future Improvements
+# 🌐 API Endpoints
 
-- Edit Existing Records
+| Method | Endpoint |
+|---------|----------|
+| GET | /api/dashboard |
+| GET | /api/revenue |
+| GET | /api/city-sales |
+| GET | /api/recent-sales |
+| POST | /api/upload |
+| POST | /api/import-api |
+| DELETE | /api/recent-sales/:id |
+
+---
+
+# 📸 Screenshots
+
+<img width="1920" height="1019" alt="Screenshot (1054)" src="https://github.com/user-attachments/assets/14b01aaa-99c1-4204-a77a-5d267d3d4c72" />
+<img width="1920" height="1015" alt="Screenshot (1055)" src="https://github.com/user-attachments/assets/5733e5cb-8de7-4022-b0e6-b340826a9503" />
+<img width="1920" height="1025" alt="Screenshot (1056)" src="https://github.com/user-attachments/assets/f8394844-3248-4ac3-8b0d-b72ae621221a" />
+
+
+- Dashboard
+- Charts
+- Recent Sales
+- Import Feature
+
+---
+
+# 🔮 Future Enhancements
+
 - User Authentication
-- Advanced Dashboard Filters
-- Interactive Reports
+- Role Based Access
+- Dark Mode
+- Date Range Filters
+- Dashboard Themes
+- AI Sales Forecasting
+- Email Reports
 
 ---
 
-## Author
+# 👨‍💻 Developed By
 
-Developed as a First-Year College Project.
+**Prakhar Tyagi**
+
+Business Analytics Dashboard
+
+---
+
