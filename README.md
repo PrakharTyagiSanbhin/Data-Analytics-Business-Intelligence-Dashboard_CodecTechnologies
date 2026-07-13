@@ -87,13 +87,30 @@ This project allows users to visualize business data, manage sales records, impo
 BusinessDashboard
 │
 ├── client
+│   ├── public
+│   │   ├── favicon.svg
+│   │   └── icons.svg
+│   │
 │   ├── src
 │   │   ├── components
+│   │   │   ├── RecentSales
+│   │   │   ├── Charts.jsx
+│   │   │   ├── DashboardCards.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── RecentSales.jsx
+│   │   │   └── Sidebar.jsx
+│   │   │
 │   │   ├── pages
+│   │   │   └── Dashboard.jsx
+│   │   │
 │   │   ├── styles
-│   │   └── assets
+│   │   │   └── dashboard.css
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
 │   │
-│   └── package.json
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── server
 │   ├── server.js
@@ -105,6 +122,8 @@ BusinessDashboard
 │   ├── sampleData.js
 │   └── package.json
 │
+├── package.json
+├── .gitignore
 └── README.md
 ```
 
