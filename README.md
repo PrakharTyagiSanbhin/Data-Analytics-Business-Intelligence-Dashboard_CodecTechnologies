@@ -49,6 +49,11 @@ This project allows users to visualize business data, manage sales records, impo
 - REST API
 - Live Dashboard Updates
 
+## CRUD Options
+ ✔ Create
+ ✔ Read
+ ✔ Delete
+
 ---
 
 # 🛠 Tech Stack
@@ -162,10 +167,10 @@ BusinessDashboard
 
 # ⚙ Installation
 
-## Clone Repository
+## Clone the repository
 
 ```bash
-https://github.com/PrakharTyagiSanbhin/Data-Analytics-Business-Intelligence-Dashboard_CodecTechnologies.git
+git clone https://github.com/PrakharTyagiSanbhin/BusinessDashboard.git
 ```
 
 ---
@@ -199,7 +204,24 @@ Update database credentials in:
 ```
 server/db.js
 ```
+# ▶ Running the Project
 
+### Terminal 1
+
+cd server
+
+node server.js
+
+### Terminal 2
+
+cd client
+
+npm run dev
+
+Open:
+
+http://localhost:5173
+---
 ---
 
 # 🌐 API Endpoints
