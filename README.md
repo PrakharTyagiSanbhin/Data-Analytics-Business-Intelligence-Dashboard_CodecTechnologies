@@ -170,7 +170,7 @@ BusinessDashboard
 ## Clone the repository
 
 ```bash
-git clone https://github.com/PrakharTyagiSanbhin/BusinessDashboard.git
+git clone https://github.com/PrakharTyagiSanbhin/Data-Analytics-Business-Intelligence-Dashboard_CodecTechnologies.git
 ```
 
 ---
